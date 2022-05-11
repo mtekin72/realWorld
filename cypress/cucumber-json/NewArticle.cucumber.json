@@ -27,7 +27,7 @@
             "name": "user clicks to New Post button",
             "result": {
               "status": "passed",
-              "duration": 7590000000
+              "duration": 5021000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "user types \"My Diet\"  what is this article \"Junk Food\"   and enters \"Healthy food\" \"food\"",
             "result": {
               "status": "passed",
-              "duration": 1626000000
+              "duration": 1597000000
             }
           },
           {
@@ -47,7 +47,7 @@
             "name": "user clicks publish article button",
             "result": {
               "status": "passed",
-              "duration": 81000000
+              "duration": 94000000
             }
           },
           {
@@ -57,7 +57,7 @@
             "name": "user should be able to successfuly create a New Article and Publish \"My Diet\"",
             "result": {
               "status": "passed",
-              "duration": 3083000000
+              "duration": 3090000000
             }
           }
         ]
@@ -82,7 +82,7 @@
             "name": "user clicks to New Post button",
             "result": {
               "status": "passed",
-              "duration": 3456000000
+              "duration": 3312000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "user types \"Worst Time Ever\"  what is this article \"Depression during the pandemy\"   and enters \"Corona\" \"vaccination\"",
             "result": {
               "status": "passed",
-              "duration": 1808000000
+              "duration": 1747000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "user clicks publish article button",
             "result": {
               "status": "passed",
-              "duration": 74000000
+              "duration": 67000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "user should be able to successfuly create a New Article and Publish \"Worst Time Ever\"",
             "result": {
               "status": "passed",
-              "duration": 3046000000
+              "duration": 3058000000
             }
           }
         ]
@@ -137,7 +137,7 @@
             "name": "user clicks to New Post button",
             "result": {
               "status": "passed",
-              "duration": 3398000000
+              "duration": 3292000000
             }
           },
           {
@@ -147,7 +147,7 @@
             "name": "user types \"The World was in Fire\"  what is this article \"Second World War\"   and enters \"The Netherland in II WW\" \"war\"",
             "result": {
               "status": "passed",
-              "duration": 1706000000
+              "duration": 1728000000
             }
           },
           {
@@ -157,7 +157,7 @@
             "name": "user clicks publish article button",
             "result": {
               "status": "passed",
-              "duration": 70000000
+              "duration": 63000000
             }
           },
           {
@@ -167,7 +167,7 @@
             "name": "user should be able to successfuly create a New Article and Publish \"The World was in Fire\"",
             "result": {
               "status": "passed",
-              "duration": 3042000000
+              "duration": 3039000000
             }
           }
         ]
