@@ -1,0 +1,133 @@
+[
+  {
+    "description": "    Valid and Invali Login Cases",
+    "keyword": "Feature",
+    "name": "Login Test Suite",
+    "line": 1,
+    "id": "login-test-suite",
+    "tags": [],
+    "uri": "Logintest.feature",
+    "elements": [
+      {
+        "id": "login-test-suite;login-with-valid-cridentials",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Login with valid Cridentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user navigates to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 630000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user enters valid \"testuser@iptiq.com\" and \"test1234\"",
+            "result": {
+              "status": "passed",
+              "duration": 993000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user should be able to successfuly login",
+            "result": {
+              "status": "passed",
+              "duration": 331000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test-suite;login-with-empty-password",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Login with empty password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user navigates to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user enters invalid \"testuser@iptiq.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "user should not be able to successfuly login",
+            "result": {
+              "status": "passed",
+              "duration": 242000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test-suite;login-with-invalid-cridentials",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Login with invalid Cridentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user navigates to homepage",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "user enters invalid \"testuser@iptiq.com\" and \"test1234\"",
+            "result": {
+              "status": "passed",
+              "duration": 1054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "user should see an error message",
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

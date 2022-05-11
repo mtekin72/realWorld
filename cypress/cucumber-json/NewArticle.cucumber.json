@@ -1,0 +1,162 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Create New Article & Publish",
+    "line": 1,
+    "id": "create-new-article-&-publish",
+    "tags": [],
+    "uri": "NewArticle.feature",
+    "elements": [
+      {
+        "id": "create-new-article-&-publish;create-an-article",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "create an article",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user clicks to New Post button",
+            "result": {
+              "status": "passed",
+              "duration": 2272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user types \"My Diet\"  what is this article \"Junk Food\"   and enters \"Healthy food\" \"food\"",
+            "result": {
+              "status": "passed",
+              "duration": 1356000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user clicks publish article button",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should be able to successfuly create a New Article and Publish \"My Diet\"",
+            "result": {
+              "status": "passed",
+              "duration": 3073000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-new-article-&-publish;create-an-article",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "create an article",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user clicks to New Post button",
+            "result": {
+              "status": "passed",
+              "duration": 3250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user types \"Worst Time Ever\"  what is this article \"Depression during the pandemy\"   and enters \"Corona\" \"vaccination\"",
+            "result": {
+              "status": "passed",
+              "duration": 1693000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user clicks publish article button",
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should be able to successfuly create a New Article and Publish \"Worst Time Ever\"",
+            "result": {
+              "status": "passed",
+              "duration": 3095000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-new-article-&-publish;create-an-article",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "create an article",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user clicks to New Post button",
+            "result": {
+              "status": "passed",
+              "duration": 3374000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user types \"The World was in Fire\"  what is this article \"Second World War\"   and enters \"The Netherland in II WW\" \"war\"",
+            "result": {
+              "status": "passed",
+              "duration": 1689000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user clicks publish article button",
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should be able to successfuly create a New Article and Publish \"The World was in Fire\"",
+            "result": {
+              "status": "passed",
+              "duration": 3063000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+    
+  
+    "email":"testuser@iptiq.com",
+    "password":"test1234",
+    "invalidemail":"invalidemail@gmail",
+    "invalidpassword":"wrongpassword",
+    "invalidemailformat":"test.gmail.com",
+    "invalidformatpassword":"psw"
+   
+}
