@@ -9,5 +9,5 @@ test:
     - npm ci
     # start the server in the background
     - npm run 
-    - cy:smoke
+    - "curl -X POST --fail -F token=TOKEN -F ref=REF_NAME https://gitlab.com/api/v4/projects/36082628/trigger/pipeline"
     - npm run runOnChrome
