@@ -23,7 +23,7 @@
             "name": "user navigates to homepage",
             "result": {
               "status": "passed",
-              "duration": 630000000
+              "duration": 469000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "user enters valid \"testuser@iptiq.com\" and \"test1234\"",
             "result": {
               "status": "passed",
-              "duration": 993000000
+              "duration": 1081000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "user should be able to successfuly login",
             "result": {
               "status": "passed",
-              "duration": 331000000
+              "duration": 417000000
             }
           }
         ]
@@ -63,7 +63,7 @@
             "name": "user navigates to homepage",
             "result": {
               "status": "passed",
-              "duration": 259000000
+              "duration": 242000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "user enters invalid \"testuser@iptiq.com\"",
             "result": {
               "status": "passed",
-              "duration": 678000000
+              "duration": 664000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "user should not be able to successfuly login",
             "result": {
               "status": "passed",
-              "duration": 242000000
+              "duration": 274000000
             }
           }
         ]
@@ -103,17 +103,16 @@
             "name": "user navigates to homepage",
             "result": {
               "status": "passed",
-              "duration": 252000000
+              "duration": 289000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 27,
-            "name": "user enters invalid \"testuser@iptiq.com\" and \"test1234\"",
+            "name": "user enters invalid \"testuser@iptiq\" or  \"test1234\"",
             "result": {
-              "status": "passed",
-              "duration": 1054000000
+              "status": "undefined"
             }
           },
           {
@@ -122,8 +121,45 @@
             "line": 28,
             "name": "user should see an error message",
             "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-test-suite;login-with-invalid-cridentials",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Login with invalid Cridentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user navigates to homepage",
+            "result": {
               "status": "passed",
-              "duration": 206000000
+              "duration": 239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "user enters invalid \"testuser@iptiq\" or  \"test1234\"",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "user should see an error message",
+            "result": {
+              "status": "skipped"
             }
           }
         ]

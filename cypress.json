@@ -8,9 +8,8 @@
     "**/*.*"
   ],
   "retries": {
-    "runMode": 1
+    "runMode": 2
   },
-  "reporter":"mochawsome",
   "viewportWidth": 1024,
   "viewportHeight": 768,
   "chromeWebSecurity": false,
@@ -18,5 +17,5 @@
   "include": [
     "**/*.*"
   ],
-  "projectId": "hp982x"
+  "projectId": "951pr5"
 }

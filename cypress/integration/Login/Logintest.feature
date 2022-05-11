@@ -24,9 +24,10 @@ Examples:
 
 
 Scenario Outline: Login with invalid Cridentials  
-When user enters invalid "<email>" and "<password>"
+When user enters invalid "<email>" or  "<password>"
 Then user should see an error message
 
 Examples:
             | email              | password |
-            | testuser@iptiq.com | test1234 |
+            | testuser@iptiq | test1234 |
+            | testuser@iptiq | test1234 |
