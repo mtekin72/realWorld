@@ -1,0 +1,12 @@
+
+  stage: test    # It only starts when the job in the build stage completes successfully.
+  image: cypress/browsers:node16.5.0-chrome94-ff93
+  script:
+    -npm ci
+    -npm run
+    -cypress smoke
+    -npm run runOnChrome
+  
+
+
+
