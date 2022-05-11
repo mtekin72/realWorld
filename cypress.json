@@ -1,22 +1,22 @@
-{"env": {
+{
+  "env": {
     "global": {
       "url": "https://react-redux.realworld.io/#/login"
-      
     }
   },
   "testFiles": [
     "**/*.*"
   ],
-  "retries":{
-"runMode":1
+  "retries": {
+    "runMode": 1
   },
+  "reporter":"mochawsome",
   "viewportWidth": 1024,
   "viewportHeight": 768,
   "chromeWebSecurity": false,
   "defaultCommandTimeout": 9000,
-
-  "include": ["**/*.*"]
-  
+  "include": [
+    "**/*.*"
+  ],
+  "projectId": "hp982x"
 }
-
-
