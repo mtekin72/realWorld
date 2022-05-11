@@ -6,7 +6,8 @@
   "scripts": {
     "open": "npx cypress open",
     "test": "npx cypress run",
-    "cypress:smoke-test": "cypress run --spec cypress/integration/TC01_createNewArticle.spec.js"
+    "runOnChrome":"cypress run --browser chrome",
+    "cypress smoke": "cypress run --spec cypress/integration/TC01_createNewArticle.spec.js"
   },
   "keywords": [],
   "author": "M.Tekin",

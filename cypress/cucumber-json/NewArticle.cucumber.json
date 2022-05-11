@@ -12,7 +12,12 @@
         "keyword": "Scenario",
         "line": 15,
         "name": "create an article",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 7
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
@@ -22,7 +27,7 @@
             "name": "user clicks to New Post button",
             "result": {
               "status": "passed",
-              "duration": 5520000000
+              "duration": 7590000000
             }
           },
           {
@@ -32,7 +37,7 @@
             "name": "user types \"My Diet\"  what is this article \"Junk Food\"   and enters \"Healthy food\" \"food\"",
             "result": {
               "status": "passed",
-              "duration": 1708000000
+              "duration": 1626000000
             }
           },
           {
@@ -42,7 +47,7 @@
             "name": "user clicks publish article button",
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 81000000
             }
           },
           {
@@ -52,7 +57,7 @@
             "name": "user should be able to successfuly create a New Article and Publish \"My Diet\"",
             "result": {
               "status": "passed",
-              "duration": 3078000000
+              "duration": 3083000000
             }
           }
         ]
@@ -62,7 +67,12 @@
         "keyword": "Scenario",
         "line": 16,
         "name": "create an article",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 7
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
@@ -72,7 +82,7 @@
             "name": "user clicks to New Post button",
             "result": {
               "status": "passed",
-              "duration": 3462000000
+              "duration": 3456000000
             }
           },
           {
@@ -82,7 +92,7 @@
             "name": "user types \"Worst Time Ever\"  what is this article \"Depression during the pandemy\"   and enters \"Corona\" \"vaccination\"",
             "result": {
               "status": "passed",
-              "duration": 1815000000
+              "duration": 1808000000
             }
           },
           {
@@ -92,7 +102,7 @@
             "name": "user clicks publish article button",
             "result": {
               "status": "passed",
-              "duration": 65000000
+              "duration": 74000000
             }
           },
           {
@@ -102,7 +112,7 @@
             "name": "user should be able to successfuly create a New Article and Publish \"Worst Time Ever\"",
             "result": {
               "status": "passed",
-              "duration": 3106000000
+              "duration": 3046000000
             }
           }
         ]
@@ -112,7 +122,12 @@
         "keyword": "Scenario",
         "line": 17,
         "name": "create an article",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 7
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
@@ -122,7 +137,7 @@
             "name": "user clicks to New Post button",
             "result": {
               "status": "passed",
-              "duration": 3330000000
+              "duration": 3398000000
             }
           },
           {
@@ -132,7 +147,7 @@
             "name": "user types \"The World was in Fire\"  what is this article \"Second World War\"   and enters \"The Netherland in II WW\" \"war\"",
             "result": {
               "status": "passed",
-              "duration": 1728000000
+              "duration": 1706000000
             }
           },
           {
@@ -142,7 +157,7 @@
             "name": "user clicks publish article button",
             "result": {
               "status": "passed",
-              "duration": 64000000
+              "duration": 70000000
             }
           },
           {
@@ -152,7 +167,7 @@
             "name": "user should be able to successfuly create a New Article and Publish \"The World was in Fire\"",
             "result": {
               "status": "passed",
-              "duration": 3064000000
+              "duration": 3042000000
             }
           }
         ]
