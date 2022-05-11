@@ -4,7 +4,7 @@ Feature: Create New Article & Publish
     Background:
         Given user clicks to New Post button
 
-
+    @smoke
     Scenario Outline: create an article
         When user types "<articletitle>"  what is this article "<about>"   and enters "<write>" "<tag>"
         And user clicks publish article button

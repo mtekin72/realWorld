@@ -1,6 +1,6 @@
 Feature: Login Test Suite
 
-    Valid and Invalid Login Cases
+    Valid and Invali Login Cases
 Background:
 Given user navigates to homepage
 
@@ -15,19 +15,19 @@ Examples:
 
  @smoke       
 Scenario Outline: Login with empty password  
-When user enters valid "<email>" and empty password
+When user enters invalid "<email>"
 Then user should not be able to successfuly login
 
 Examples:
-            | email              |
-            | testuser@iptiq.com | 
+            | email              | password |
+            | testuser@iptiq.com | test1234 |
 
 @smoke
 Scenario Outline: Login with invalid Cridentials  
-When user enters invalid "<email>" or invalid "<password>"
+When user enters invalid "<email>" or  "<password>"
 Then user should see an error message
 
 Examples:
             | email              | password |
-            | testuser@iptiq     | test1234  |
-            | testuser@iptiq.com | test123 |
+            | testuser@iptiq     | test1234 |
+            | testuser@iptiq.com | test123  |
