@@ -9,5 +9,5 @@ test:
     - npm ci
     # start the server in the background
     - npm run 
-    - cypress smoke
-     - npm run runOnChrome
+    - cy:smoke
+    - npm run runOnChrome
