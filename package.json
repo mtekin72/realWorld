@@ -1,0 +1,32 @@
+{
+  "name": "realworldio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "npx cypress open",
+    "test": "npx cypress run",
+    "cypress:smoke-test": "cypress run --spec cypress/integration/TC01_createNewArticle.spec.js"
+  },
+  "keywords": [],
+  "author": "M.Tekin",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "devDependencies": {
+    
+    "@testing-library/cypress": "^8.0.2",
+    "cypress": "^9.5.4",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+   
+    "multiple-cucumber-html-reporter": "^1.18.3"
+  }
+ 
+}
