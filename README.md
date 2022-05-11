@@ -1,4 +1,4 @@
-# realWorld
+# RealWorld App
 Test automation framework using Cypress + JavaScript (or TypeScript) + Cucumber Login Test Creat New Article
 
 Test Scenarios
