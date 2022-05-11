@@ -13,7 +13,7 @@ Examples:
             | email              | password |
             | testuser@iptiq.com | test1234 |
 
- @smoke       
+@smoke       
 Scenario Outline: Login with empty password  
 When user enters valid "<email>" and empty password
 Then user should not be able to successfuly login
