@@ -28,7 +28,7 @@
             "name": "user navigates to homepage",
             "result": {
               "status": "passed",
-              "duration": 2539000000
+              "duration": 1792000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "user enters valid \"testuser@iptiq.com\" and \"test1234\"",
             "result": {
               "status": "passed",
-              "duration": 5569000000
+              "duration": 5085000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "user should be able to successfuly login",
             "result": {
               "status": "passed",
-              "duration": 557000000
+              "duration": 521000000
             }
           }
         ]
@@ -73,7 +73,7 @@
             "name": "user navigates to homepage",
             "result": {
               "status": "passed",
-              "duration": 832000000
+              "duration": 612000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "user enters valid \"testuser@iptiq.com\" and empty password",
             "result": {
               "status": "passed",
-              "duration": 732000000
+              "duration": 621000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "user should not be able to successfuly login",
             "result": {
               "status": "passed",
-              "duration": 233000000
+              "duration": 271000000
             }
           }
         ]
@@ -118,7 +118,7 @@
             "name": "user navigates to homepage",
             "result": {
               "status": "passed",
-              "duration": 276000000
+              "duration": 255000000
             }
           },
           {
@@ -128,7 +128,7 @@
             "name": "user enters invalid \"testuser@iptiq\" or invalid \"test1234\"",
             "result": {
               "status": "passed",
-              "duration": 969000000
+              "duration": 891000000
             }
           },
           {
@@ -138,7 +138,7 @@
             "name": "user should see an error message",
             "result": {
               "status": "passed",
-              "duration": 221000000
+              "duration": 259000000
             }
           }
         ]
@@ -163,7 +163,7 @@
             "name": "user navigates to homepage",
             "result": {
               "status": "passed",
-              "duration": 345000000
+              "duration": 273000000
             }
           },
           {
@@ -173,7 +173,7 @@
             "name": "user enters invalid \"testuser@iptiq.com\" or invalid \"test123\"",
             "result": {
               "status": "passed",
-              "duration": 967000000
+              "duration": 952000000
             }
           },
           {
@@ -183,7 +183,7 @@
             "name": "user should see an error message",
             "result": {
               "status": "passed",
-              "duration": 340000000
+              "duration": 320000000
             }
           }
         ]

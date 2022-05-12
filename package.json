@@ -10,7 +10,6 @@
     "cy:smoke": "cypress run --spec cypress/integration/TC01_createNewArticle.spec.js",
     "cy:dashboard":"cypress run --record --key af371a37-7394-4758-a39d-1e75d3a367b6"
 
-
   },
   "keywords": [],
   "author": "M.Tekin",
@@ -34,3 +33,4 @@
     "mochawesome": "^7.1.3"
   }
 }
+
