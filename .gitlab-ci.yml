@@ -6,5 +6,5 @@ test:
     - npm ci
     - npm run runOnChrome
         -npm ci
-        -npm cy:smoke
-        -npm cy:dashboard
+        -npm run cy:smoke
+        -npm  run cy:dashboard
