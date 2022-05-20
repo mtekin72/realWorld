@@ -6,10 +6,9 @@
   "scripts": {
     "open": "npx cypress open",
     "test": "npx cypress run",
-    "runOnChrome":"cypress run --browser chrome",
+    "runOnChrome": "cypress run --browser chrome",
     "cy:smoke": "cypress run --spec cypress/integration/TC01_createNewArticle.spec.js",
-    "cy:dashboard":"cypress run --record --key af371a37-7394-4758-a39d-1e75d3a367b6"
-
+    "cy:dashboard": "cypress run --record --key af371a37-7394-4758-a39d-1e75d3a367b6"
   },
   "keywords": [],
   "author": "M.Tekin",
@@ -27,10 +26,10 @@
     "@testing-library/cypress": "^8.0.2",
     "cypress": "^9.5.4",
     "cypress-cucumber-preprocessor": "^4.3.1",
-    "multiple-cucumber-html-reporter": "^1.18.3"
+    "multiple-cucumber-html-reporter": "^1.18.3",
+    "prettier": "2.6.2"
   },
   "dependencies": {
     "mochawesome": "^7.1.3"
   }
 }
-
